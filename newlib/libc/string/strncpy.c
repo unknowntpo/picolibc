@@ -69,7 +69,7 @@ QUICKREF
 #endif
 
 #ifndef DETECTNULL
-#error long int is not a 32bit or 64bit byte
+#error long int is not a 32bit or 64bit type.
 #endif
 
 #define TOO_SMALL(LEN) ((LEN) < sizeof (long))
